@@ -52,3 +52,32 @@ ul#horizontal-list li {
   width: ;
   height: ;
 } */
+.page2 {
+  text-align: center;
+  font-family: TitilliumWeb;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+}
+.first-heading {
+  margin-bottom: 0px;
+}
+.line {
+  width: 150px;
+  height: 2px;
+}
+.description {
+  padding: 0 420px 0 420px;
+  font-size: 12px;
+}
+.p-service {
+  font-family: TitilliumWeb;
+
+  font-size: 12px;
+
+  font-weight: 300;
+
+  font-style: normal;
+
+  font-stretch: normal;
+}
