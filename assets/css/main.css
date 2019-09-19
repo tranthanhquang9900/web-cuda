@@ -1,60 +1,9 @@
-/* .welcome {
-  width: 1440px;
-  height: 596;
-  object-fit: contain;
+.font {
+  text-align: center;
+  font-size: TitilliumWeb;
 }
-.logo {
-  width: 118px;
-  height: 37px;
-  margin: 57px 1111px 502px 211px;
-}
-ul#horizontal-list {
-  min-width: 416px;
-  list-style: none;
-  height: 13px;
-  object-fit: contain;
-  font-family: TitilliumWeb;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  text-align: left;
-  margin: 70px 195px 513px 829px;
-}
-ul#horizontal-list li {
-  display: inline;
-}
-.click {
-  width: 293px;
-  height: 70px;
-  margin: 381px 573px 145px 574px;
-}
-.page2 {
-  width: ;
-  height: ;
-}
-.page3 {
-  width: ;
-  height: ;
-}
-.page4 {
-  width: ;
-  height: ;
-}
-.page5 {
-  width: ;
-  height: ;
-}
-.page6 {
-  width: ;
-  height: ;
-}
-.page7 {
-  width: ;
-  height: ;
-} */
 .first-heading {
   font-size: 35px;
-  text-align: center;
   margin-bottom: 0px;
 }
 .line {
@@ -63,7 +12,6 @@ ul#horizontal-list li {
   height: 4px;
 }
 .description {
-  text-align: center;
   margin: 0 29%;
   font-size: 15px;
 }
@@ -77,9 +25,4 @@ ul#horizontal-list li {
 }
 h4 {
   font-size: 25px;
-}
-.text-blue {
-  color: #30bae7;
-  margin-top: 0px;
-  font-size: 12px;
 }

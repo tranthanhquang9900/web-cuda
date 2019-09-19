@@ -10,54 +10,32 @@ html {
 }
 
 :root {
-  --main-bg-color: #990099;
+  /* --main-bg-color: #9158c4; */
+  --color-text: #ffffff;
+  --color-text-second: #3c4761;
   /* background-color: var(--main-bg-color); */
-  --main-text-color: #f7f3ea;
 }
-/* h2 {
-  font-size: 40px;
-  font-weight: bold;
-  font-family: TitilliumWeb;
-  text-align: center;
-  color: black;
-}
-h2.select-color {
-  color: var(--select-nor-color);
-}
-h3 {
-  width: 118px;
-  height: 37px;
-  background-color: ;
-  padding: 57px 0 502px 211px;
-} */
 li {
-  color: var(--main-text-color);
+  color: var(--color-text);
   display: inline;
   padding: 10px;
 }
-h2 {
-  font-style: oblique;
-  margin-left: 100px;
-  color: white;
-  font-size: 35px;
-  display: inline-block;
-}
 ul {
+  font-size: 14px;
+  margin-left: 500px;
   display: inline-block;
 }
-.info {
-  padding: 50px 0 50px 0;
-  margin: 0 20%;
-  text-align: center;
+.logo {
+  margin-top: 50px;
 }
+
 .text {
-  /* font-family: TitilliumWeb; */
-  font-size: TitilliumWeb;
-  color: var(--main-text-color);
+  padding-top: 80px;
+  margin: 40px 20%;
+  color: #f7f3ea;
   font-size: 30px;
 }
 .click {
-  font-size: TitilliumWeb;
   border: 3px solid #ed8a42;
   border-bottom: 3px solid #bf6422;
   width: 200px;
@@ -65,83 +43,76 @@ ul {
   color: white;
   background-color: #ed8a42;
 }
-.list {
-  font-size: TitilliumWeb;
-  font-size: 14px;
-  margin-left: 500px;
-  text-align: center;
-}
-.welcome {
-  background-color: var(--main-bg-color);
-  border: 1px solid black;
+.page1 {
+  background-color: #9158c4;
+  border: 1px solid #9158c4;
   width: 1270px;
-  height: 500px;
+  height: 530px;
   box-sizing: border-box;
 }
 .page2 {
-  text-align: center;
-  /* font-weight: bold; */
+  color: var(--color-text);
   font-style: normal;
-  background-color: #00cc99;
-  border: 1px solid black;
+  background-color: #58c4a9;
+  border: 1px solid #58c4a9;
   width: 1270px;
   height: 700px;
   box-sizing: border-box;
 }
 .page3 {
-  text-align: center;
-  background-color: #dcdfe3;
-  border: 1px solid black;
+  color: var(--color-text-second);
+  background-color: #ddeaeb;
+  border: 1px solid #ddeaeb;
   width: 1270px;
-  height: 700px;
+  height: 760px;
   box-sizing: border-box;
 }
-.branding {
+.text-blue {
+  color: #30bae7;
+  margin-top: 0px;
+  font-size: 12px;
+}
+.four-icons {
   width: 20%;
   display: inline-block;
 }
-.design {
-  width: 20%;
+.three-icons {
+  width: 30%;
   display: inline-block;
 }
-.development {
-  width: 20%;
-  display: inline-block;
-}
-.rocket-science {
-  width: 20%;
-  display: inline-block;
+.page4 {
+  color: var(--color-text-second);
+  background-color: white;
+  border: 1px solid white;
+  width: 1270px;
+  height: 550px;
+  box-sizing: border-box;
 }
 .fix {
+  width: 20%;
+  display: inline-block;
   margin-top: 75px;
   margin-left: 5px;
   margin-right: 5px;
 }
-.icon-facebook {
-  width: 20%;
-  display: inline-block;
+.page5 {
+  color: #393939;
+  background-color: #ffdd99;
+  border: 1px solid #ffdd99;
+  width: 1270px;
+  height: 750px;
+  box-sizing: border-box;
 }
-.icon-twi {
-  width: 20%;
-  display: inline-block;
+.four-options {
+  width: 380px;
+  height: 20px;
+  margin: 30px 35%;
 }
-.icon-ins {
-  width: 20%;
-  display: inline-block;
-}
-.icon-mail {
-  width: 20%;
-  display: inline-block;
-}
-.icon-facebook-two {
-  width: 30%;
-  display: inline-block;
-}
-.icon-twi-two {
-  width: 30%;
-  display: inline-block;
-}
-.icon-ins-two {
-  width: 30%;
-  display: inline-block;
+.option {
+  margin: 0 5px;
+  border: 3px solid #f2be79;
+  border-radius: 10px;
+  background-color: #f2be79;
+  width: 75px;
+  height: 30px;
 }
