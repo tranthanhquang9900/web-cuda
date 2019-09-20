@@ -35,11 +35,10 @@ ul {
   color: #f7f3ea;
   font-size: 30px;
 }
-.click {
+
+.contact {
   border: 3px solid #ed8a42;
-  border-bottom: 3px solid #bf6422;
-  width: 200px;
-  height: 50px;
+  border-bottom: 5px solid #bf6422;
   color: white;
   background-color: #ed8a42;
 }
@@ -100,13 +99,14 @@ ul {
   background-color: #ffdd99;
   border: 1px solid #ffdd99;
   width: 1270px;
-  height: 750px;
+  height: 1170px;
   box-sizing: border-box;
 }
 .four-options {
   width: 380px;
   height: 20px;
   margin: 30px 35%;
+  margin-bottom: 70px;
 }
 .option {
   margin: 0 5px;
@@ -115,4 +115,30 @@ ul {
   background-color: #f2be79;
   width: 75px;
   height: 30px;
+}
+.layout-items {
+  width: 45%;
+  display: inline-block;
+}
+.load-project {
+  border: 3px solid #17c2a4;
+  border-bottom: 5px solid #14a38a;
+  color: white;
+  background-color: #17c2a4;
+}
+.page6 {
+  color: var(--color-text);
+  background-color: #d74680;
+  border: 1px solid #d74680;
+  width: 1270px;
+  height: 1170px;
+  box-sizing: border-box;
+}
+.layout-people {
+  width: 45%;
+  display: inline-block;
+}
+.avatar {
+  float: left;
+  width: 30%;
 }

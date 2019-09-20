@@ -2,6 +2,10 @@
   text-align: center;
   font-size: TitilliumWeb;
 }
+.click {
+  width: 200px;
+  height: 50px;
+}
 .first-heading {
   font-size: 35px;
   margin-bottom: 0px;
