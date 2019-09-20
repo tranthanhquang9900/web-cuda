@@ -139,6 +139,18 @@ ul {
   display: inline-block;
 }
 .avatar {
-  float: left;
-  width: 30%;
+  width: 20%;
+  display: inline-block;
+}
+.description-avatar {
+  text-align: left;
+  padding: 0 60px;
+  width: 75%;
+  display: inline-block;
+}
+.people-h4 {
+  margin-top: 3px;
+}
+.four-people {
+  margin-top: 75px;
 }
