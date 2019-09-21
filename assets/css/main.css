@@ -1,25 +1,33 @@
-.font {
-  text-align: center;
-  font-size: TitilliumWeb;
-}
+/* những lớp chung ở những page */
 .click {
   width: 200px;
   height: 50px;
 }
+
+.font {
+  text-align: center;
+  font-size: TitilliumWeb;
+}
+/* end */
+
+/* những lớp page2 */
 .first-heading {
   font-size: 35px;
   margin-bottom: 0px;
 }
+
 .line {
   margin: 0px 45%;
   width: 150px;
   height: 4px;
 }
+
 .description {
   margin: 0 29%;
   font-size: 15px;
 }
-.p-service {
+
+.info {
   padding-left: 32px;
   padding-right: 32px;
   font-size: 12px;
@@ -27,6 +35,116 @@
   font-style: normal;
   font-stretch: normal;
 }
+
 h4 {
   font-size: 25px;
 }
+
+.fix-img {
+  width: 20%;
+  display: inline-block;
+  margin-top: 75px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* end */
+
+/* những lớp page3 */
+.four-icons {
+  width: 20%;
+  display: inline-block;
+}
+
+.location-people {
+  margin-top: 0px;
+}
+
+.text-blue {
+  font-size: 13px;
+  color: #30bae7;
+}
+
+.three-icons {
+  width: 30%;
+  display: inline-block;
+}
+/* end */
+
+/* những lớp page5 */
+.four-options {
+  width: 380px;
+  height: 20px;
+  margin: 30px 35%;
+  margin-bottom: 70px;
+}
+
+.option {
+  margin: 0 5px;
+  border: 3px solid #f2be79;
+  border-radius: 10px;
+  background-color: #f2be79;
+  width: 75px;
+  height: 30px;
+}
+
+.layout-items {
+  width: 45%;
+  display: inline-block;
+}
+/* end */
+
+/* những lớp page6 */
+.layout-people {
+  width: 45%;
+  display: inline-block;
+}
+
+.avatar {
+  width: 20%;
+  display: inline-block;
+}
+
+.description-avatar {
+  text-align: left;
+  padding: 0px 100px 10px 30px;
+  width: 75%;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.people-h4 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.fix-text {
+  padding-left: 160px;
+  text-align: left;
+}
+
+.text-yellow {
+  font-size: 15px;
+  color: #ffdd99;
+}
+/* end */
+
+/* những lớp page7 */
+.label-inline {
+  width: 35%;
+  display: inline-block;
+}
+
+.fill {
+  background-color: #273a71;
+  padding: 15px;
+  text-align: left;
+}
+/* end */
+
+/* những lớp page8 */
+.link {
+  font-size: 22px;
+  width: 13%;
+  display: inline-block;
+}
+/* end */
